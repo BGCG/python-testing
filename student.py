@@ -1,4 +1,4 @@
-from datatime import date, timedelta
+from datetime import date, timedelta
 
 
 class Student:
@@ -14,3 +14,4 @@ class Student:
     @property
     def full_name(self):
         return f"{self._first_name} {self._last_name}"
+
